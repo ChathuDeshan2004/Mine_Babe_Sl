@@ -2,7 +2,6 @@
 
 import type { UseChatHelpers } from "@ai-sdk/react";
 import { useChat } from "@ai-sdk/react";
-import { DefaultChatTransport } from "ai";
 import { usePathname } from "next/navigation";
 import {
   createContext,
